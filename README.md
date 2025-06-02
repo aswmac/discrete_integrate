@@ -48,9 +48,7 @@ $$\begin{bmatrix}
 1 & 1 & 0 & 0 \\
 1 & 1 & 1 & 0 \\
 1 & 1 & 1 & 1 \\
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix}=\begin{bmatrix}
 1 & 0 & 0 & 0 \\
 3 & 1 & 0 & 0 \\
 3 & 2 & 1 & 0 \\
@@ -58,11 +56,21 @@ $$\begin{bmatrix}
 \end{bmatrix}
 $$
 # The binomial numbers, as expected, because of the powers of (x + 1), giving delta f (because minus identity)
-$$
-\begin{bmatrix}
+$$\begin{bmatrix}
 0 & 0 & 0 & 0 \\
 3 & 0 & 0 & 0 \\
 3 & 2 & 0 & 0 \\
 1 & 1 & 1 & 0 \\
 \end{bmatrix}
 $$
+<p>
+Losing one dimension makes sense because the difference of a constant is zero.
+ The rest of the matrix is from the binomial numbers, missing the column of ones as well.
+ </p>
+#Binomial number patterns
+ Now that it is known that the pattern comes from the binomial numbers, the matrix may be factored
+ in terms of synthetic division steps, and those steps can be reversed a-la inverse matrix steps.
+ #Hypergeometric pattern of Binomial numbers
+ <p>
+   $$ x^{\underline{2}} $$
+ </p>
