@@ -1,5 +1,5 @@
 def discreteIntegrate(coeff_list):
-	''' reverse of forward difference see page 93 2022.12.09.153444'''
+	''' reverse of forward difference see README'''
 	coeff = coeff_list[:] # make a copy that will be changed in-place
 	dim = len(coeff)
 	for i in range(dim - 1, -1, -1):
