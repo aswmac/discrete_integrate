@@ -11,6 +11,12 @@ Keeping the evaluation input as the constant x and breaking down the synthetic d
 # Matrix representation of one step of synth-op
 
 
+$$\begin{matrix}
+x && a && b && c && d \\
+&& && ax && && && \\
+\end{matrix}
+$$
+
 $$\begin{bmatrix}
 1 & 0 & 0 & 0 \\
 x & 1 & 0 & 0 \\
