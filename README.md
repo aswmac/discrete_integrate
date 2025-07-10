@@ -10,6 +10,15 @@ Keeping the evaluation input as the constant x and breaking down the synthetic d
 
 # Matrix representation of one step of synth-op
 
+$$
+\begin{array}{r|rrrr}
+r & a & b & c & d \\
+  &   & ar & a r^2 + b r & a r^3 + b r^2 + c r \\
+\hline
+  & a & a r + b & a r^2 + b r + c & a r^3 + b r^2 + c r + d \\
+\end{array}
+$$
+
 
 $$\begin{matrix}
 x && a && b && c && d \\
